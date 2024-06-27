@@ -1,1 +1,1 @@
-
+The finalize method in Object class has been deprecated Java 9 Onwards
