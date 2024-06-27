@@ -50,3 +50,10 @@ The map interface does not implement the collection interface
 What is blocking queue
 
 https://www.baeldung.com/java-blocking-queue
+
+===========================================================================
+
+Both Synchronized collection and concurrent collection provide thread safety to us
+Main difference is Performance of these 2
+Concurrent collections have a better performance than the synchronized collection
+Reason is locking
