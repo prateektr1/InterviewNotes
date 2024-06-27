@@ -1,1 +1,34 @@
 The finalize method in Object class has been deprecated Java 9 Onwards
+Examples of Immutable classes in Java are String and all the wrapper classes like Integer,Float,Boolean etc
+
+Here's what we need to do to create an immutable class.
+
+declare the class as final so it cannot be extended
+all class members should be private so they cannot be accessed outside of class
+shouldn't contain any setter methods to change the value of class members
+the getter method should return the copy of class members
+class members are only initialized using constructor
+
+final class Immutable {
+
+  // private class members
+  private String name;
+  private int date;
+
+  Immutable(String name, int date) {
+
+    // class members are initialized using constructor
+    this.name = name;
+    this.date = date;
+  }
+
+  // getter method returns the copy of class members
+  public String getName() {
+    return name;
+  }
+
+  public int getDate() {
+    return date;
+  }
+
+}
