@@ -43,3 +43,10 @@ Collections is a class
 
 Interface like List,Set and queue implement the collection interface
 The map interface does not implement the collection interface
+
+
+======================================================================
+
+What is blocking queue
+
+https://www.baeldung.com/java-blocking-queue
