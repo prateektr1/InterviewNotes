@@ -32,3 +32,14 @@ final class Immutable {
   }
 
 }
+
+
+
+==============================================================
+
+
+Collection is an interface
+Collections is a class
+
+Interface like List,Set and queue implement the collection interface
+The map interface does not implement the collection interface
