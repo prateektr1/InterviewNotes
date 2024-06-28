@@ -43,3 +43,45 @@ In case your answer is 2 explain how to make changes to not allow set to add dup
 
 Hint : Override equals and hashcode method
 ===============================================================================================================================================
+
+
+Check the code snippet given below and tell whether whats written in the main function is legal
+import java.util.LinkedList;
+import java.util.List;
+
+class AnimalPlanet
+{
+
+}
+class Dog extends AnimalPlanet {
+
+}
+class Cat extends AnimalPlanet {
+
+}
+class Cow extends AnimalPlanet {
+
+}
+
+
+
+class Test {
+        static List<AnimalPlanet> animals= new LinkedList<>();
+
+        public static void main(String args[]) {
+                animals.add(new Cat());
+
+                animals.add(new Dog());
+
+                animals.add(new Cow());
+
+                System.out.println(animals);
+
+        }
+}
+
+// Answer : Yes it is legal follow up question how to filter out the number of Cat class objects from the animals list
+
+
+=======================================================================================================================================
+
