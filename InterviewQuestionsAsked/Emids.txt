@@ -119,3 +119,38 @@ Have you ever worked on a messaging system like pub sub or kafka
 
 ==========================================================================================================================================
 
+
+What error will we get if we autowire without declaring the class as Component or Service
+
+
+@service
+Class EmployeeService {
+	@Autowired
+	private EmployeUtil empUtil;
+
+}
+
+
+Class EmployeeUtil {
+
+}
+
+
+=====================================================================================================
+
+@path(“/employee”)
+@RestController
+Class EmployeeController {
+
+	@GetMapping(‘’/{city}”)
+	getEmployeeByCity(String city.) {. }
+
+	@GetMapping(‘’/{name}”)
+	getEmployeesByName(String name.) { }
+
+
+}
+
+if we pass a random string in this case where the request land upto
+
+=========================================================================================================
