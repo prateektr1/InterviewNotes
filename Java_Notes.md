@@ -85,3 +85,11 @@ Exception ---------------------------CheckedException --------- File not Found, 
           ---------------------------Unchecked Exception ------ Null Pointer Exception
 
 ===================================================================================================================
+
+
+Differences between Error and Exception in Java
+
+Exceptions are recoverable but error are not
+Exceptions can be managed or handelled via try catch finally nothing can be done about errors
+Exceptions can be checked or unchecked but errors are always unchecked
+Exceptions are related to application but errors are related to environment where application runs
