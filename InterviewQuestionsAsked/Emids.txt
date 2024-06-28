@@ -1,1 +1,45 @@
+if we are in a situation where we have code like this , how many objects will the set contain
 
+import java.util.HashSet;
+import java.util.Set;
+
+class EmployeeSample
+{
+    int id;
+    String name;
+
+    EmployeeSample(int id,String name)
+    {
+        this.id=id;
+        this.name=name;
+    }
+
+    public boolean equals(Object o)
+    {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        EmployeeSample student = (EmployeeSample)o;
+        return id == student.id;
+    }
+}
+public class SetQuestion {
+
+    public static void main(String args[])
+    {
+        Set s = new HashSet<>();
+        EmployeeSample e1 = new EmployeeSample(1,"Vignesh");
+        EmployeeSample e2 = new EmployeeSample(1,"Vignesh");
+        s.add(e1);
+        s.add(e2);
+        Object y;
+        System.out.println(s);
+
+    }
+}
+
+In case your answer is 2 explain how to make changes to not allow set to add duplicates
+
+Hint : Override equals and hashcode method
+===============================================================================================================================================
