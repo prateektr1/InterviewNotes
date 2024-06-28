@@ -65,3 +65,23 @@ What is Try Catch Finally in Java
 // try block contains risky code , the one which can possibly throw exceptions
 // catch block catches the exception thrown by try block and performs appropriate information
 // finally block is used for clean up activities like clsoing db connection or closing any other resource
+
+
+
+
+
+
+==================================================================================================================
+
+
+
+
+
+Throwable -------------Exception
+          -------------Error
+
+
+Exception ---------------------------CheckedException --------- File not Found, SQL Exception
+          ---------------------------Unchecked Exception ------ Null Pointer Exception
+
+===================================================================================================================
