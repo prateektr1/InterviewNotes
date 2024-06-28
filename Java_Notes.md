@@ -119,4 +119,9 @@ All Runtime exceptions are unchecked
 
 =====================================================================================================================
 
+All checked exceptions are subclasses of exception
+All Unchecked Exceptions are subclasses of Runtime Exception
+
+=====================================================================================================================
+
 
