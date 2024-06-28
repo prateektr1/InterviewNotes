@@ -99,6 +99,10 @@ Exceptions are related to application but errors are related to environment wher
 
 An Alone Try Statement will throw compilation error in Java, try either must have catch block or finally block
 
+Try must be immediately followed by a catch block or finally block in between we cant write any statement
+
 =====================================================================================================================
+
+
 
 
