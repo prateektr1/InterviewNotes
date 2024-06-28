@@ -82,6 +82,37 @@ class Test {
 
 // Answer : Yes it is legal follow up question how to filter out the number of Cat class objects from the animals list
 
+// animals.stream().filter(a->a instanceof Cat).forEach(a->System.out.print(a));
+
 
 =======================================================================================================================================
+
+
+How to Write about Production Level Code in the following scenario
+
+Find out the Port Number from the URL
+
+// Discuss exception handelling , error handelling and discuss about a scenario like https//www.google.com
+
+public class Port {
+    // String s = “https://localhost:8080/myApp/login”
+    public int getPortNum(String url){
+        try {
+
+
+            String attributes[] = url.split(":");
+            return Integer.valueOf(attributes[attributes.length - 1].split("/")[0]);
+        }
+
+        catch(Exception e)
+        {
+
+        }
+        return 0;
+    }
+}
+
+
+====================================================================================================================================
+
 
