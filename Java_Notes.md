@@ -103,6 +103,17 @@ Try must be immediately followed by a catch block or finally block in between we
 
 =====================================================================================================================
 
+Difference Between Throw and Throws Keyword
+
+Java Throw Keyword is used to Explicitly throw an exception  || Java Throws Keyword is used to declare an exception
+
+Checked Exception Cant be propogated using throw only || Checked Exception can be propogated using throws
+
+Throw is used with in the method || Throws is used with the method signature
+
+You can't throw multiple exceptions || You can declare multiple exceptions
+
+=====================================================================================================================
 
 
 
