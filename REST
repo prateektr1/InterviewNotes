@@ -1,1 +1,10 @@
 
+HTTP methods are also known as HTTP verbs
+
+For example
+
+GET
+POST
+PUT
+UPDATE 
+DELETE
