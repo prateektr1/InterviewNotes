@@ -124,4 +124,10 @@ All Unchecked Exceptions are subclasses of Runtime Exception
 
 =====================================================================================================================
 
+The @ControllerAdvice annotation allows us to consolidate our multiple, scattered @ExceptionHandlers from before into a single, global error handling component . The actual mechanism is extremely simple but also very flexible: It gives us full control over the body of the response as well as the status code
+
+ExceptionHandler is a Spring annotation that provides a mechanism to handle exceptions thrown during execution of handlers (controller operations) . This annotation, if used on methods of controller classes, will serve as the entry point for handling exceptions thrown within this controller only
+
+============================================================================================================================
+
 
