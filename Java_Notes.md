@@ -130,4 +130,10 @@ ExceptionHandler is a Spring annotation that provides a mechanism to handle exce
 
 ============================================================================================================================
 
+We can open a stream(.stream()) only on collection, the interfaces that implement the collection interface thats why its not possible to
+open a stream on a map
+
+====================================================================================================================================
+
+
 
