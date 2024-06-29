@@ -3,8 +3,9 @@ HTTP methods are also known as HTTP verbs
 
 For example
 
-GET
-POST
-PUT
-UPDATE 
-DELETE
+GET    : This is used for fetching data from server, this is mostly a Read Only Operation
+POST   : This method is used for Creation of new resources on server
+PUT    : This method is used to update the old/existing resource on the server or to replace the resource
+PATCH  : This is used for modifying the resource on the server
+DELETE : Delete is used to delete the resource on the server
+OPTIONS : This fetches the list of supported operations of resources on server
