@@ -11,3 +11,5 @@ DELETE : Delete is used to delete the resource on the server
 OPTIONS : This fetches the list of supported operations of resources on server
 
 What is an Idempotent operation
+
+CORS full form is Cross Origin Resource Sharing
