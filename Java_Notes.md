@@ -139,9 +139,15 @@ Objects are always created in Heap
 References are always created in stack
 An object becomes eligible for GC when all its references are null and it cant be accessed from anywhere
 
+Different ways to make an object eligible for GC
+
+1. Mark the object to point to null reference.
+2. Make the reference variable point to another object.
+3. Creating islands of isolation.
+
 ===================================================================================================================================
 
-==================================================================================================================================
+
 
 
 
