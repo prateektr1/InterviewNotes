@@ -145,7 +145,7 @@ Different ways to make an object eligible for GC
 2. Make the reference variable point to another object.
 3. Creating islands of isolation.
 
-===================================================================================================================================
+==================================================================================
 
 
 
