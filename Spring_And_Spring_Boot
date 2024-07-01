@@ -33,5 +33,5 @@ session : 1 bean per HTTP session. Web aware Spring Application Context
 The default scope of a bean is singleton
 
 
-
+By default Spring beans are not Thread Safe
 
