@@ -19,4 +19,10 @@ The configuration for application context can be defined in 2 ways
 
 @ComponentScan is used to tell the Spring Container where to scan for packages which contain the beans
 
+Normally in Spring we have to specify the package which needs to be scanned to figure out which packages need to be scanned for beans, although
+Spring Boot makes the process of Component scan easier, it will check for @SpringBootApplication annotation , what package this annotation lies in
+Spring boot will go and scan that package for the beans
+
+
+
 
