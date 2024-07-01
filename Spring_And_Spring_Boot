@@ -23,6 +23,15 @@ Normally in Spring we have to specify the package which needs to be scanned to f
 Spring Boot makes the process of Component scan easier, it will check for @SpringBootApplication annotation , what package this annotation lies in
 Spring boot will go and scan that package for the beans
 
+Spring beans have 4 scopes
+
+Singleton : One instance per Spring Context
+prototype : New Bean whenever requested
+request : 1 bean per HTTP request. Web aware Spring Application Context
+session : 1 bean per HTTP session. Web aware Spring Application Context
+
+The default scope of a bean is singleton
+
 
 
 
