@@ -35,3 +35,8 @@ The default scope of a bean is singleton
 
 By default Spring beans are not Thread Safe
 
+Types of dependency injections in Spring 
+
+Setter Injection
+Constructor injection
+
