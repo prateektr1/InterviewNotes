@@ -15,4 +15,6 @@ The configuration for application context can be defined in 2 ways
 1) @Configuration annotation
 2) using configuration.xml file
 
+@Component means this is something which Spring needs to manage
+
 
