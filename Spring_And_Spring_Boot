@@ -3,4 +3,11 @@ Spring IoC (Inversion of Control) Container is the core of Spring Framework. It 
 // Inversion of control means the responsibility of creation of objects goes to the Spring framework (Mostly using the @Autowire annotation), not like the class which 
 has the object creating the object
 
+There are 2 types of IOC containers
+
+1) Bean Factory
+2) Application Context
+
+bean factory is mostly used by low memory applications like mobile phones
+
 
