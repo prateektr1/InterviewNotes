@@ -10,4 +10,9 @@ There are 2 types of IOC containers
 
 bean factory is mostly used by low memory applications like mobile phones
 
+The configuration for application context can be defined in 2 ways
+
+1) @Configuration annotation
+2) using configuration.xml file
+
 
