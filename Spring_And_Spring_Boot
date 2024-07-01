@@ -17,4 +17,6 @@ The configuration for application context can be defined in 2 ways
 
 @Component means this is something which Spring needs to manage
 
+@ComponentScan is used to tell the Spring Container where to scan for packages which contain the beans
+
 
