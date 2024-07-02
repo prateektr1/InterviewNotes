@@ -40,3 +40,7 @@ Types of dependency injections in Spring
 Setter Injection
 Constructor injection
 
+Whenever we get bean not found exception, these could be 2 main reasons
+--> @Component Missing
+--> @ComponentScan not defined properly
+
