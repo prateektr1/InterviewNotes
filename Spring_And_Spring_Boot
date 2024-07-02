@@ -75,4 +75,18 @@ Spring BATCH
 Spring HATEOS
 Spring Integration
 
+===============================================================================================================================
+
+                                                             Spring Boot Notes
+                                                          ========================
+
+Spring boot helps to automate the configuration part of spring and create production ready applications quickly
+There are a lot of starter projects in Spring Boot
+Spring Boot Actuator helps to record metrics in Spring boot
+Embedded server is tomcat in Spring Boot, although as per our wish we can use a server like jetty also
+
+
+
+================================================================================================================================
+
 
