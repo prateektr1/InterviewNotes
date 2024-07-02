@@ -37,6 +37,9 @@ By default Spring beans are not Thread Safe
 
 Types of dependency injections in Spring 
 
+Initially Spring framework used to support configuration only via xml, but later on annotation based config was introduced
+
+
 Setter Injection
 Constructor injection
 
