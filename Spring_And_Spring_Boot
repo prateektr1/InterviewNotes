@@ -44,3 +44,22 @@ Whenever we get bean not found exception, these could be 2 main reasons
 --> @Component Missing
 --> @ComponentScan not defined properly
 
+In component scan there might be more than 1 matching components that leads to
+NoUniqueBeanException
+
+In this case @Primary annotation helps, as it marks a bean as primary and give it preference while bean matching
+@Qualifier also helps see the example below
+
+@Component
+public class ComplexAlgorithmImpl{
+
+@Autowired
+@Qualifier("main algorithm)
+private SortAlgorithm sortAlgorithm;
+
+@Component
+@Qualifier("main algorithm")
+public class BubbleSortAlgorithm implements SortAlgorithm
+
+
+
