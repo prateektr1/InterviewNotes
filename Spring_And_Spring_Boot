@@ -64,5 +64,15 @@ private SortAlgorithm sortAlgorithm;
 @Qualifier("main algorithm")
 public class BubbleSortAlgorithm implements SortAlgorithm
 
+Spring has a number of Projects
+
+Spring Web
+Spring JDBC
+Spring web flux
+Spring Boot
+Spring Cloud
+Spring BATCH
+Spring HATEOS
+Spring Integration
 
 
