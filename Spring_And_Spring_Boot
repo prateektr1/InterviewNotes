@@ -99,6 +99,8 @@ application-dev.properties
 application-qa.properties
 application-prod.properties
 
+H2 database is an in memory database that is used by Spring
+
 ================================================================================================================================
 
 
