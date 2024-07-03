@@ -85,8 +85,13 @@ There are a lot of starter projects in Spring Boot
 Spring Boot Actuator helps to record metrics in Spring boot
 Embedded server is tomcat in Spring Boot, although as per our wish we can use a server like jetty also
 
+A deployable server is always embedded in the Spring Boot Deployable Jar
+By Default server in Spring boot is tomcat, although it also supports jetty and undertow
 
+Server is embedded as a part of the deployable JAR itself
 
 ================================================================================================================================
+
+
 
 
