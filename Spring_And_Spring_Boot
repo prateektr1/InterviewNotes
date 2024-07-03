@@ -90,6 +90,9 @@ By Default server in Spring boot is tomcat, although it also supports jetty and 
 
 Server is embedded as a part of the deployable JAR itself
 
+Although Properties for an application can be defined in application.properties but there is also a way to define the custom properties in an 
+application using the annotation @ConfigurationProperties annotation
+
 ================================================================================================================================
 
 
