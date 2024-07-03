@@ -93,6 +93,12 @@ Server is embedded as a part of the deployable JAR itself
 Although Properties for an application can be defined in application.properties but there is also a way to define the custom properties in an 
 application using the annotation @ConfigurationProperties annotation
 
+Based on the profile the appropriate file is picked up
+
+application-dev.properties
+application-qa.properties
+application-prod.properties
+
 ================================================================================================================================
 
 
