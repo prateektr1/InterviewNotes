@@ -103,6 +103,27 @@ H2 database is an in memory database that is used by Spring
 
 ================================================================================================================================
 
+Sppring Boot Testing
+
+The most popular framework for Mocking in Spring is Mockito
+
+Either use Mockito.mock or use @Mock annotation to create a mock object
+
+Example of @Mock and @InjectMocks annotations
+
+@RunWith(MockitoJUnitRunner.class)
+public class SomeBusinessMockAnnotationTest
+{
+   @Mock
+   DataService dataservicemock
+
+   @InjectMocks
+   SomeBusinessImpl businessImpl
+
+   // @Mock is used to create a mock of data service
+   // @InjectMocks is used to insert dataServiceMock in BusinessImpl
+}
+
 
 
 
