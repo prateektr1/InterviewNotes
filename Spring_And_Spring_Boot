@@ -138,7 +138,7 @@ spring.security.user.password=<Your Password>
 
 How to configure your own Authentication in Spring Security(Rather than using the default one)
 
-Extend WSCA in custom class and use @Enablewebsecurity annotation
+Extend WSCA in custom class and use @Enablewebsecurity annotation(WSCA : Web Security Config Adaptor)
 override configure(AMB) method
 configure type of auth,user,pass and role
 This will create and configure a new AM and now SS will use this AM instead of default one(AM - Authentication Manager)
