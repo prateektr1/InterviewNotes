@@ -143,6 +143,12 @@ override configure(AMB) method
 configure type of auth,user,pass and role
 This will create and configure a new AM and now SS will use this AM instead of default one(AM - Authentication Manager)
 
+Difference between Authorization and Authentication
+
+Authentication : Who are you
+Authrization : What do you want
+
+
 
 ==================================================================================================
 
