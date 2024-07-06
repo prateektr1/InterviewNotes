@@ -157,6 +157,8 @@ Okta is a Company that provides a solution https://www.okta.com/
 
 It has set of endpoints created for us if we configure our application in OKTA it gives is keys password token etc
 
+OAuth 2.0 uses access tokens
+
 
 ==================================================================================================
 
