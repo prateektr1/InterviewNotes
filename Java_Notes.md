@@ -149,6 +149,8 @@ Different ways to make an object eligible for GC
 
 Comparable and Comparator are used when we have to sort Custom objects
 
+Normal Objects like String,Integer,Float can be directly sorted by Arrays.sort() method
+
 
 
 
