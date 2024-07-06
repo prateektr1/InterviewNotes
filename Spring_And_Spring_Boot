@@ -148,6 +148,10 @@ Difference between Authorization and Authentication
 Authentication : Who are you
 Authrization : What do you want
 
+Okta , OAuth, OIDC three important things in Spring Security
+
+OAuth is only for Authrization
+Okta is a one stop solution for both Authentication and Authorization
 
 
 ==================================================================================================
