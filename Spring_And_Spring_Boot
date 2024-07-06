@@ -176,6 +176,8 @@ Payload contains the claims of the token
 
 Signature is base64(Header)+base64(Payload)+256 bit secret key
 
+Claims in JWT are the key value pairs
+
 
 
 ==================================================================================================
