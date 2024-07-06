@@ -159,6 +159,24 @@ It has set of endpoints created for us if we configure our application in OKTA i
 
 OAuth 2.0 uses access tokens
 
+JWT is in the form of x.y.z
+
+x is header
+y is payload
+z is signature
+
+Header has algorithm and token type like below
+{
+
+  "alg":"HS256",
+  "typ":"JWT"
+}
+
+Payload contains the claims of the token
+
+Signature is base64(Header)+base64(Payload)+256 bit secret key
+
+
 
 ==================================================================================================
 
