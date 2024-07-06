@@ -153,6 +153,10 @@ Okta , OAuth, OIDC three important things in Spring Security
 OAuth is only for Authrization
 Okta is a one stop solution for both Authentication and Authorization
 
+Okta is a Company that provides a solution https://www.okta.com/
+
+It has set of endpoints created for us if we configure our application in OKTA it gives is keys password token etc
+
 
 ==================================================================================================
 
