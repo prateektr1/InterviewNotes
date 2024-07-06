@@ -151,6 +151,9 @@ Comparable and Comparator are used when we have to sort Custom objects
 
 Normal Objects like String,Integer,Float can be directly sorted by Arrays.sort() method
 
+Comparable is for default natural sorting order(Contains method compareTo)
+Comparator is used for Customized sorting(Contains method compare)
+
 
 
 
