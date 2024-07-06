@@ -124,6 +124,11 @@ public class SomeBusinessMockAnnotationTest
    // @InjectMocks is used to insert dataServiceMock in BusinessImpl
 }
 
+===============================================================================
+
+Spring security is used to secure our applications
+
+To implement the most basic form of your application just include the spring-boot-starter-security dependency in your application
 
 
 
