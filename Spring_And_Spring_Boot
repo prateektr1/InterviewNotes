@@ -130,5 +130,11 @@ Spring security is used to secure our applications
 
 To implement the most basic form of your application just include the spring-boot-starter-security dependency in your application
 
+Normally the Spring security will generate its own password but if you want your own username and password you can define it in the
+application.properties file like this
+
+spring.security.user.name=<Your Username>
+spring.security.user.password=<Your Password>
+
 
 
