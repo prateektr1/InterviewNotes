@@ -13,3 +13,8 @@ When to use Linked List and Array List
 Linked List are better to use for Update Operations
 Array Lists are better for Search Operations(Due to the undelying data structure being Resizable Array and indexed based access in Linked List we will have to iterarate 
 through the entire list)
+
+In Linked Lists the underlying data structure is Doubly Linked List hence the operation like add , update or delete are easy because unlike array we dont have to 
+shift or move all elements in the beginning or elsewhere
+
+So each type of list is useful for its own Usage Benefit
