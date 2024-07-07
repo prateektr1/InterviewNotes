@@ -22,6 +22,10 @@ How do you create a Custom exception ? Give an example of that by Coding?
 
 What is a Singleton class ? Give an example by coding? Should the member variables be declared final in this code?
 
+How to make sure that reflection API cant break your singleton?
+
+What is the difference between a mock and stub?
+
 
 
 
