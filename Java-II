@@ -32,3 +32,14 @@ To be a valid key in a Java `Map`, an object must follow these rules:
 3. **HashCode and Equals Contract**: The `hashCode()` and `equals()` methods of the key class should be implemented correctly to ensure that keys are stored and retrieved correctly. If you override one of these methods, you should override the other to maintain consistency.
 
 While keys can have different types, it's important to remember that keys are used to uniquely identify values in the map. If you use keys of different types that are considered equal (according to their `equals()` method), the map may behave unexpectedly. Therefore, it's typically best to use consistent and appropriate key types for your specific use case.
+
+
+
+What are the ways to iterate over a Map
+
+There is no direct iterator for a map because it does implement the collection interface but we can use its keySet to iterate over it
+
+1. We can us the for each loop to iterate over it if we are using the keyset
+2. We can use the iterator of the keySet to iterate over the map
+3. We can use the Entry set of the Map to iterate over it, we will be returned a set of Entry values and we can use entry.getKey() and entry.getValue() for our 
+own benefit we can use loop or iterator itself for this purpose
