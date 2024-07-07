@@ -34,6 +34,8 @@ What is Mockito?
 
 How do you do integration testing using Junit?
 
+What design patters you have used, can you give an example of Behavioural design patterns and creational design patterns?
+
 
 
 
