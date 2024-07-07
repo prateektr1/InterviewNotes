@@ -26,6 +26,10 @@ How to make sure that reflection API cant break your singleton?
 
 What is the difference between a mock and stub?
 
+What is Mockito?
+
+How do you do integration testing using Junit?
+
 
 
 
