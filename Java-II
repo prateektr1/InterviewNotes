@@ -4,5 +4,6 @@ How can the microservices communicate with each other,
 
 There are 2 modes of communication for microservices
 
-1) Synchronous communication : Takes place via HTTP(Clients Like Rest Template,Feign Client and Postman help in this)
+1) Synchronous communication : Takes place via HTTP(Clients Like Rest Template,Feign Client and Postman help in this), we should try to minimise this type of communication
+   because they introduce latency in network.
 2) Asynchronous communication : Takes place via messaging queues like Kafka,Rabbit MQ etc,Client does not wait for response here
