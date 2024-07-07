@@ -6,7 +6,17 @@ Questions
 
 2. What is request tracing, where it is used?
 
-3. IF We have to store a session state then what component of system design is used?
+3. If We have to store a session state then what component of system design is used?
    Ans : Cache like Redis or Memcached
+
+4. What are all the types of diagrams used for drawing system diagrams, give all names
+   Ans : Sequence Diagram, Use Case diagram and more....
+
+Make sure to revise all of these
+
+Question on ControllerAdvice annotation and Exception handler annotation
+
+
+
 
 
