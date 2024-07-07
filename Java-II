@@ -18,3 +18,5 @@ In Linked Lists the underlying data structure is Doubly Linked List hence the op
 shift or move all elements in the beginning or elsewhere
 
 So each type of list is useful for its own Usage Benefit
+
+In Priority Queue a higher Priority Element is served before the lower Priority Element, The Priority Queue is based on Priority Heap
