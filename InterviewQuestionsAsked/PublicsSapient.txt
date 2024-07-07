@@ -36,6 +36,8 @@ How do you do integration testing using Junit?
 
 What design patters you have used, can you give an example of Behavioural design patterns and creational design patterns?
 
+What are the design patterns used in Microservices? Give example of each one?
+
 
 
 
