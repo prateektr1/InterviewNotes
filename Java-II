@@ -1,1 +1,8 @@
 A marker interface is the one which has no methods or data members, it is used to give an indication to the compiler
+
+How can the microservices communicate with each other,
+
+There are 2 modes of communication for microservices
+
+1) Synchronous communication : Takes place via HTTP
+2) Asynchronous communication : Takes place via messaging queues like Kafka,Rabbit MQ etc
