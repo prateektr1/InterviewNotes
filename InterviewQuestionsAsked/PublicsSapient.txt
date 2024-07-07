@@ -1,1 +1,5 @@
+He asked questions from System Design do remember to revise it
+Questions
 
+1. What is An API gateway used for , have you ever used any API gateway?
+   Ans : Kong API Gateway
