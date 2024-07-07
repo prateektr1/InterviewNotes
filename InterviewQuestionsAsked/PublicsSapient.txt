@@ -16,6 +16,10 @@ Make sure to revise all of these
 
 Question on ControllerAdvice annotation and Exception handler annotation
 
+what is the importance of throws keyword
+
+How do you create a Custom exception ? Give an example of that
+
 
 
 
