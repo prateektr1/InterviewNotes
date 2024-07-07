@@ -20,3 +20,15 @@ shift or move all elements in the beginning or elsewhere
 So each type of list is useful for its own Usage Benefit
 
 In Priority Queue a higher Priority Element is served before the lower Priority Element, The Priority Queue is based on Priority Heap
+
+It is true than any Object Can be used as a Hash Map key, Only thing is it is expected to follow certain rules
+
+To be a valid key in a Java `Map`, an object must follow these rules:
+
+1. **Immutability**: Keys should be immutable, or their state should not change after they are added to the map. This is because the map uses the hash code of the keys to organize and retrieve values efficiently, and changing the key's state could lead to unexpected behavior.
+
+2. **Consistency of Hash Code**: If two keys are considered equal (i.e., they return `true` when compared with the `equals()` method), their hash codes must be the same. This ensures that keys with equal values are stored and retrieved properly in the map.
+
+3. **HashCode and Equals Contract**: The `hashCode()` and `equals()` methods of the key class should be implemented correctly to ensure that keys are stored and retrieved correctly. If you override one of these methods, you should override the other to maintain consistency.
+
+While keys can have different types, it's important to remember that keys are used to uniquely identify values in the map. If you use keys of different types that are considered equal (according to their `equals()` method), the map may behave unexpectedly. Therefore, it's typically best to use consistent and appropriate key types for your specific use case.
