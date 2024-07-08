@@ -16,3 +16,5 @@ In ConcurrentHashMap , at a time any number of threads can perform retrieval ope
 in which the Thread wants to operate, this type of locking mechanism is known as segment locking or bucket locking, Hence at a time 16 update operations can be
 performed by threads.
 
+private, static and final methods can not be overridden in Java
+
