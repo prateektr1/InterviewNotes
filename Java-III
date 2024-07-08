@@ -1,1 +1,4 @@
-
+Concurrent HashMap is a part of Java.util.concurrent package
+Concurrent hashmap are better performance wise when compared to normal syhchronized collections
+The reason is in synchronized collections the entire collection is locked whereas in synchronized collection the concept of segment locking
+is there
