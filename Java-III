@@ -12,4 +12,7 @@ Load Factor : Its a factor that is used to control resizing, default value is 0.
 
 Initial Capacity : Its initial Capacity is 16
 
+In ConcurrentHashMap , at a time any number of threads can perform retrieval operation but for updated in the object, the thread must lock the particular segment
+in which the Thread wants to operate, this type of locking mechanism is known as segment locking or bucket locking, Hence at a time 16 update operations can be
+performed by threads.
 
