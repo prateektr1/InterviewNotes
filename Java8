@@ -1,3 +1,5 @@
 
 Java 8 was introduced to reduce the lines of code in Java, it also marks the begining of functional programming in java and gives it the power of languages
 similar to scala and python.
+
+All the predefined Java 8 inetrfaces are present in Java.util.Function package
