@@ -16,3 +16,5 @@ With Java 8 now an interface can have default methods and static methods
 Default methods are those which can have implementation inside interface and the user wont get unimplemented methods error
 
 Actually the default implementation prevents compile time error
+
+A default method can not override from java.lang.Object class
