@@ -178,6 +178,19 @@ Signature is base64(Header)+base64(Payload)+256 bit secret key
 
 Claims in JWT are the key value pairs
 
+================================================================================================
+
+Life Cycle Methods of Spring
+
+Spring provide 2 important method to every bean
+public void init()   ----------> used for Initilization , code loading, config, connecting db, webservice etc
+
+public void destroy() ---------> This is used for Clean up code
+
+We can change the name of these methods but signature must be the same
+
+
+
 
 
 ==================================================================================================
