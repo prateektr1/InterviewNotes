@@ -189,6 +189,12 @@ public void destroy() ---------> This is used for Clean up code
 
 We can change the name of these methods but signature must be the same
 
+Configurations can be given in 3 ways
+
+1. XML file
+2. Java file
+3. Annotations
+
 
 
 
