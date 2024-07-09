@@ -38,6 +38,10 @@ What design patters you have used, can you give an example of Behavioural design
 
 What are the design patterns used in Microservices? Give example of each one?
 
+If we are using a Parallel Stream operation in a octa core CPU how many cores of CPU actually get utlizied?
+
+Ans : n-1 = 8-1 =7
+
 
 
 
