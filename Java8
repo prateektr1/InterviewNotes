@@ -7,3 +7,5 @@ All the predefined Java 8 inetrfaces are present in Java.util.Function package
 if we want we can also define our own Functional interface
 
 Functional interfaces follow SAM(Single abstract method) policy
+
+Any functional interface can have any number of static and default methods , but as far as abstract methods are concerned it can have only one
