@@ -196,6 +196,11 @@ Configurations can be given in 3 ways
 3. Annotations
 
 
+Steps invloved in Spring Bean Life Cycle
+
+Loading bean definitions ----------> Bean Instantiation ---------> Bean Initialization ------>Use bean ----> Bean Destruction
+
+
 
 
 
