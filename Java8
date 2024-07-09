@@ -10,3 +10,7 @@ Functional interfaces follow SAM(Single abstract method) policy
 
 Any functional interface can have any number of static and default methods , but as far as abstract methods are concerned it can have only one
 example : Runnable,Comparable
+
+With Java 8 now an interface can have default methods and static methods
+
+Default methods are those which can have implementation inside interface and the user wont get unimplemented methods error
