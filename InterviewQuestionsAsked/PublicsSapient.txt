@@ -42,6 +42,16 @@ If we are using a Parallel Stream operation in a octa core CPU how many cores of
 
 Ans : n-1 = 8-1 =7
 
+========================================================================================================================
+
+
+Round 2 Interview Questions
+
+Questions again around design patterns in Microservices
+
+Questions from the document given by Recruiter
+
+
 
 
 
