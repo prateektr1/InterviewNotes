@@ -52,6 +52,33 @@ Questions again around design patterns in Microservices
 Questions from the document given by Recruiter
 
 
+Intro? Tech stack?
+Question: List of integers and there is a target number. Find the pair of integers from the list whose sum is equal to the target number. Use java 8 features and write efficient code.
+ how would you handle duplicate pairs like for example 2, comma 8 or 8 comma two? how would you ensure that two comma eight and eight comma two are treated as the same pair?
+Additional Questions – 
+1.how will you do exception handling for this program? What all things need to be handled?
+2.how will you ensure that you cater to large number of input list. Suppose the input is in thousands. How would you ensure the performance of the program?
+
+Another question: When you log in to travel websites, for ticket booking and all those things right you do sorting from you do the sorting by distance you ultimately get the list of flights right from the website and it gives you The sorting by the price or distance or Any other filtrations you have added. So this is currently the implementation where they have put in like getting the flights, they have a single function right and they are using switch cases for you for it. How would you like consider implementing it in a more better way Such that there is no changes in your main API class.. How will you try to achieve the solid principles here? what all components will you create? What interface will you create? What classes you will create? What all methods you will apply? How your structure would look like.?
+which design pattern according to you is the best fit here.?
+
+
+
+
+Can you explain the spring boot annotations and bean life cycle?
+
+how do you define or  instantiate a Singleton class in springboot.?
+what is a circuit breaker and why it is needed? Have you heard of hystrix or resilience4j?  I just want to understand like if you have a springboot application, h what annotations are used to implement circuit breaker pattern?
+how can transactions be managed across multiple microservices?
+Which databases have you worked on? suppose I have two tables and I want to try and find the common records across both the tables, so which joins will you use? And if you want everything except the the common or the intersection, then what query you will use?
+What do you mean by correlated queries?
+Any cloud services you have used? Any service you would like to elaborate and why have you used it?
+Any certifications you have done?
+===================================================================================================================
+
+What design patters you have used in your career?
+Can you describe few of them
+
 
 
 
