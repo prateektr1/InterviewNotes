@@ -80,6 +80,69 @@ What design patters you have used in your career?
 Can you describe few of them
 
 
+=================================================================================================================
+
+
+Connecting Azure Active Directory (Azure AD) with AWS Cognito involves configuring Azure AD as an identity provider for AWS Cognito. Here's a step-by-step guide to achieve this:
+
+### Prerequisites:
+1. An active Azure subscription with Azure AD.
+2. An AWS account with access to AWS Cognito.
+
+### Step 1: Register an Application in Azure AD
+1. **Sign in to the Azure portal**.
+2. **Navigate to Azure Active Directory**.
+3. **Select "App registrations"** and then **"New registration"**.
+4. **Enter a name for the application**, and for the "Supported account types," select **"Accounts in this organizational directory only"** (for a single tenant) or **"Accounts in any organizational directory"** (for multi-tenant).
+5. For the **redirect URI**, select **"Web"** and enter a placeholder URL (you will update this later).
+6. **Click "Register"**.
+
+### Step 2: Configure the Registered Application
+1. In the app registration, go to **"Authentication"**.
+2. Under **"Redirect URIs"**, add the redirect URL from AWS Cognito (you'll get this URL from AWS Cognito's setup).
+3. Enable **"ID tokens"**.
+4. **Save** the changes.
+5. Go to **"Certificates & secrets"** and create a new **"Client secret"**. Note down the secret value, as it will be needed later.
+6. Under **"API permissions"**, add the required permissions for the application (typically, "openid", "profile", and "email" under Microsoft Graph).
+
+### Step 3: Configure AWS Cognito
+1. **Sign in to the AWS Management Console**.
+2. Go to **Cognito** and select the **user pool** you want to integrate with Azure AD.
+3. In the user pool, go to **"Federation"** and then **"Identity providers"**.
+4. Select **"OpenID Connect"**.
+5. Fill in the following details:
+   - **Provider name**: A name for the provider (e.g., "AzureAD").
+   - **Client ID**: The application (client) ID from Azure AD.
+   - **Client secret**: The client secret you generated in Azure AD.
+   - **Issuer**: The issuer URL, which is typically `https://login.microsoftonline.com/{tenant}/v2.0` (replace `{tenant}` with your Azure AD tenant ID).
+   - **Authorize scope**: `openid profile email`.
+6. **Save** the provider.
+
+### Step 4: Update Redirect URIs in Azure AD
+1. Go back to your Azure AD app registration.
+2. Navigate to **"Authentication"**.
+3. Update the **redirect URI** to include the redirect URL provided by AWS Cognito. It typically looks like `https://<your_cognito_domain>/oauth2/idpresponse`.
+4. **Save** the changes.
+
+### Step 5: Set Up the Cognito User Pool Client
+1. In AWS Cognito, go to **"App clients"**.
+2. Select your app client or create a new one.
+3. Under **"Hosted UI"**, ensure the callback URL includes the redirect URI you've set up in Azure AD.
+4. Enable **OAuth 2.0** grants (typically, "Authorization code grant" and "Implicit grant").
+5. Configure the **sign-in** and **sign-out** URLs appropriately.
+6. Save the app client settings.
+
+### Step 6: Test the Integration
+1. Go to the **Cognito Hosted UI URL** for your user pool (you can find this in the AWS Cognito console).
+2. Choose to sign in using the Azure AD identity provider you configured.
+3. You should be redirected to the Azure AD sign-in page.
+4. Sign in with an Azure AD account.
+5. After successful authentication, you should be redirected back to your application or the Cognito Hosted UI.
+
+### Summary
+This process establishes Azure AD as an identity provider for AWS Cognito, allowing users to authenticate using their Azure AD credentials. Ensure that you carefully manage secrets and configurations to maintain the security and integrity of the authentication process.
+
+
 
 
 
