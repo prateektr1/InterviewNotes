@@ -1,1 +1,10 @@
-
+Saga
+Circuit Breaker 
+API gateway pattern
+Aggregator design pattern
+Circuit breaker design pattern
+Command query responsibility segregation (CQRS)
+Asynchronous messaging
+Event sourcing
+Strangler
+Decomposition patterns
