@@ -25,6 +25,7 @@ Fault tolerance can be done using resileince 4j and hysterix in Spring
 Annotations used in Hysterix are
 
 @EnableCircuitBreaker
+@HysterixCommand(fallbackmethod="handleCitizenDowntime")
 
 
 API gateway pattern
@@ -35,3 +36,4 @@ Asynchronous messaging
 Event sourcing
 Strangler
 Decomposition patterns
+
