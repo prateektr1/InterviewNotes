@@ -1,5 +1,15 @@
 Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-boot , take example of a food delivery app
-Circuit Breaker 
+
+
+Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
+
+Circuit Breaker works in 3 ways mostly
+
+Open
+Half Open
+Closed
+
+
 API gateway pattern
 Aggregator design pattern
 Circuit breaker design pattern
