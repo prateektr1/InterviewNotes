@@ -22,6 +22,10 @@ Should not be used to solve transient failures
 
 Fault tolerance can be done using resileince 4j and hysterix in Spring
 
+Annotations used in Hysterix are
+
+@EnableCircuitBreaker
+
 
 API gateway pattern
 Aggregator design pattern
