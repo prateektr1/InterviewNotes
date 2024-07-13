@@ -2,7 +2,6 @@ Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-bo
 
 **************************************************************************************************************************
 
-
 Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
 
 Circuit Breaker works in 3 ways mostly
@@ -30,11 +29,11 @@ Annotations used in Hysterix are
 @HysterixCommand(fallbackmethod="handleCitizenDowntime")
 
 *************************************************************************************************************************
-
-
 API gateway pattern
+
+
+*************************************************************************************************************************
 Aggregator design pattern
-Circuit breaker design pattern
 Command query responsibility segregation (CQRS)
 Asynchronous messaging
 Event sourcing
