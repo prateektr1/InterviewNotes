@@ -1,5 +1,7 @@
 Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-boot , take example of a food delivery app
 
+**************************************************************************************************************************
+
 
 Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
 
@@ -26,6 +28,8 @@ Annotations used in Hysterix are
 
 @EnableCircuitBreaker
 @HysterixCommand(fallbackmethod="handleCitizenDowntime")
+
+*************************************************************************************************************************
 
 
 API gateway pattern
