@@ -9,6 +9,17 @@ Open
 Half Open
 Closed
 
+Summary of circuit breaker design pattern
+Cloud Design Pattern for Microservices
+
+Not needed in case of a few services or scenarios where load is not heavy
+
+Can be configured as per the services or environment
+
+Easy yet effective way to build resilience in the system
+
+Should not be used to solve transient failures
+
 
 API gateway pattern
 Aggregator design pattern
