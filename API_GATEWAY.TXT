@@ -21,3 +21,4 @@ Zuul is a blocking API gateway
 
 Spring Cloud Gateway is a non blocking API gateway.
 
+API GATEWAY TUTORIAL : https://www.youtube.com/watch?v=YK1XRvoXllE&list=PLyHJZXNdCXsd2e3NMW9sZbto8RB5foBtp&index=5
