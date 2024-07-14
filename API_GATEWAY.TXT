@@ -2,3 +2,8 @@ API GATEWAY IS A LAYER BETWEEN CLIENT AND MICROSERVICES
 
 Api gateway acts like a proxy that routes the request to appropriate microservices and returns a response to the client.Microservices can also interact with each other through this gateway.
 
+With API gateway we can centralise common functionalities like authentication, logging and authrization. Now API Gateway will authenticate all requests hence microservices
+need not implement all these , thus it reduces the code redundancy.
+
+API gateway works on the concept of Routing
+
