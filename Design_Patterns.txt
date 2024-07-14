@@ -59,4 +59,10 @@ Factory Pattern :https://www.geeksforgeeks.org/factory-method-for-designing-patt
 
 Builder Pattern : https://www.geeksforgeeks.org/builder-design-pattern/
 
+====================================================================================================================================================================
+
+Structural Design Patterns in Detail
+
+Adapter Design Pattern : https://www.geeksforgeeks.org/adapter-pattern/
+
 
