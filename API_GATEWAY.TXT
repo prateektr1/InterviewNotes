@@ -15,3 +15,5 @@ Some Most Popular API gateways are as follows
 4) Kong API gateway
 5) Azure API gateway
 
+Spring Cloud too has an API gateway called Spring Cloud Gateway
+
