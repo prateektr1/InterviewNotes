@@ -1,1 +1,10 @@
+There are 2 modes of communication in microservices
+ 1. Asynchronous Communication
+ 2. Synchronous Communication
 
+Synchronous Communication
+
+REST API
+Graph QL
+Feign using Eureka Discoveries
+GRPC(10 times faster than REST APIs) developed by google as a substitute of REST API
