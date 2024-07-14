@@ -1,1 +1,9 @@
+A system design interview should be approached via a set of following steps
 
+1. Clarify the requirements
+2. Discuss back of the end calculation
+3. High Level Design
+4. Database design
+5. Low Level Design
+6. Discussing security , authorization and authentication of the  system
+7. Discussing non functional requirements like scalability, performance etc
