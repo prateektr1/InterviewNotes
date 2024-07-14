@@ -7,3 +7,11 @@ need not implement all these , thus it reduces the code redundancy.
 
 API gateway works on the concept of Routing
 
+Some Most Popular API gateways are as follows
+
+1) Netflix API gateway (ZUUL)
+2) Amazon API gateway
+3) Mulesoft
+4) Kong API gateway
+5) Azure API gateway
+
