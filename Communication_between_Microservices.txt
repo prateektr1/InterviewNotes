@@ -8,3 +8,9 @@ REST API
 Graph QL
 Feign using Eureka Discoveries
 GRPC(10 times faster than REST APIs) developed by google as a substitute of REST API
+
+Following are the Asynchronous modes of communication
+
+Active MQ
+Rabbit MQ
+Kafka
