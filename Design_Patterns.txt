@@ -19,12 +19,36 @@ These 26 can be classified into 3 types:
 
 In this post, we will go through one basic design pattern for each classified type.
 
-Creational Design Patterns are
+Creational Design Patterns are ***********************
 
 Singleton
 Factory
 Abstract Factory
 Builder
 Prototype
+
+Structural Design Patterns are *********************
+
+Adapter
+Composite
+Proxy
+Fly Weight
+Facade
+Bridge
+Decorator
+
+Behavioural Design Patterns are ********************
+
+Template Method 
+Mediator
+Chain of responsibility
+Observer
+Strategy
+Command
+State
+Visitor
+Iterator
+Interpretor
+Memento
 
 
