@@ -1,1 +1,5 @@
+There are 3 types of Design Patters
 
+Creational Design Pattern
+Structural Design Pattern
+Behvioural Design Pattern
