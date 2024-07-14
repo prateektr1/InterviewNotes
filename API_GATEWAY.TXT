@@ -17,3 +17,7 @@ Some Most Popular API gateways are as follows
 
 Spring Cloud too has an API gateway called Spring Cloud Gateway
 
+Zuul is a blocking API gateway
+
+Spring Cloud Gateway is a non blocking API gateway.
+
