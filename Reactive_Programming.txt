@@ -7,3 +7,10 @@ Data flow as Event Driven
 Back Pressure of Data Stream
 
 A very good example of reactive programming is you tube where we subscribe to a channel, and whenever a new video comes we immediately get a notification.
+
+There are 4 main interfaces in Reactive Programming
+
+Publisher
+Subscriber
+Subscription
+Processor
