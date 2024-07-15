@@ -1,1 +1,6 @@
 
+Features of Reactive Programming
+
+Asynchronous and non blocking
+
+A very good example of reactive programming is you tube where we subscribe to a channel, and whenever a new video comes we immediately get a notification.
