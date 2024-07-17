@@ -39,4 +39,10 @@ Asynchronous messaging
 Event sourcing
 Strangler
 Decomposition patterns
+***********************************************************************************************************************
+
+Service Discovery in Microservices
+
+You tube link : https://www.youtube.com/watch?v=1io_7tcmG20
+https://medium.com/cloud-native-daily/microservices-patterns-part-03-service-discovery-patterns-97d603b9a510
 
