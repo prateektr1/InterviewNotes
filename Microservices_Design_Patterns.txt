@@ -17,6 +17,8 @@ Transactions could be in sequence or parallel
 --- Event/Choreography based
 --- Orchestration Based Approach
 
+Advantage of Saga Pattern is  it keeps track of the steps in a sequence and addresses issues that arise in a formal manner
+
 **************************************************************************************************************************
 
 Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
