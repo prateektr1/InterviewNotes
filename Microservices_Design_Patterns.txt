@@ -48,3 +48,9 @@ https://medium.com/cloud-native-daily/microservices-patterns-part-03-service-dis
 
 Examples of service discovery design pattern is Yellow pages and telephone directory and service bots
 
+Problems faced without Service Discovery
+
+URL Hardcoding
+Load balancing not possible at runtime
+Issues when environment change or Multiple environment
+
