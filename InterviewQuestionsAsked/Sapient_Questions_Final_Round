@@ -31,7 +31,13 @@ How do we calculate the has function
 What is completable future.
 what is the difference between future and completable future how is it different. Can I use both at the same place.
 On the completable future if you created a chain and if we put .get, what will happen?
+=========================================================================================================================
 difference between a fail safe and fail fast iterator?
+
+Iterators in Java are either fail fast or fail safe.
+Iterators in Java provide facility to traverse/iterate over the Collection Objects
+
+==========================================================================================================================
 In hash map There are multiple threads that are accessing it and then. While one thread is accessing something another thread is trying to update it what happens then.
 Sorting algorithms you are aware of, and which one Java uses?
 How does quick sort works ?
