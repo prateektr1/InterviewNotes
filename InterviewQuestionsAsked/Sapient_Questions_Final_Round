@@ -49,8 +49,20 @@ Iterators in Java provide facility to traverse/iterate over the Collection Objec
 	Fail fast iterator dont require any additional memory as they traverse over original collection	
   Fail Safe Iterator requires extra memory as extra memory is required to create a copy of the collection																							
 ==========================================================================================================================
-In hash map There are multiple threads that are accessing it and then. While one thread is accessing something another thread is trying to update it what happens then.
+In hash map There are multiple threads that are accessing it and then. 
+While one thread is accessing something another thread is trying to update it what happens then.
+
+HashMap is not by default Thread Safe so in this case we will get ConcurrentModificationException, but if its a concurrent
+Hash Map then we wont get any concurrent modification exception, as for reads it allows multiple threads for writes the concept 
+of segment locking will come in picture
+
+===================================================================================================================
 Sorting algorithms you are aware of, and which one Java uses?
+
+
+
+
+=============================================================================================================================
 How does quick sort works ?
 
 HashMap is Not thread safe by default
