@@ -143,6 +143,14 @@ Example : Uber eats or swiggy like applications
 
 
 difference between orchestrator and choreography (pros and cons of each)
+
+Orchestration is particularly useful for managing complex workflows, where there are several moving pieces that 
+need to be coordinated. 
+Choreography is suited for more decentralized and event-driven workflows, particularly in microservices architectures
+
+** pros and cons left
+
+=========================================================================================================================
 aware of domain driven design
 aware of OAuth – what is client credentials in Oauth2
 spring security and its class
