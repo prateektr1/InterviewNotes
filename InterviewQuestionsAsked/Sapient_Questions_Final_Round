@@ -93,9 +93,25 @@ Diff b/w builder and factory and when would you use each?
 How do you maintain ordering of your messages in kafka
 SQL – query problem – snap – find average salary of each department
 Can you convert (the sql problem) to java JPA
+=====================================================================================================================
 What type of dependency injection you are working in spring , and which one is preferred
+
+There are 2 types of dependency injection in Java
+
+1) Constructor Injection
+2) Setter Injection
+
+The Spring team generally advocates constructor injection, as it lets you implement application components 
+as immutable objects and ensures that required dependencies are not null . 
+
+Furthermore, constructor-injected components are always returned to the client (calling) code in a fully initialized state.
+=======================================================================================================================
 I have two components A and B that I'm initialising here let me know what will happen in this case.
 you can draw out you can write a there's a microservice A which depends on microservice B, This is calling Microservice B and then B is calling C. and microservice B is not working properly there are some issues that are happening So what happens in this case and how you can improve the this micro service arrangement. (So you have three microservices where let there's a dependency between them and one of them is not working well because of which your entire throughput and latency is getting affected now what are the things that you can implement in this particular microservice pattern that the microservices pattern that you can talk about that will improve this.) so in this particular A, B and C where and all will you have your circuit breaker code.
+Circuit Breaker Design Pattern in Code so that we have a fallback method which can run when some service is not running
+It can be done using hysterix or resilience 4j, hysterix is outdated so mostly resilience 4j is used
+
+==================================================================================================================================================================
 What Circuit breaker you are aware of and how would you implement it ( code wise)
 Have you worked orchestrator, what is use case?
 difference between orchestrator and choreography (pros and cons of each)
