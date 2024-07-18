@@ -43,6 +43,8 @@ The Optional class in Java 8 is a container object which is used to contain a va
 It was introduced as a way to help reduce the number of NullPointerExceptions that occur in Java code. 
 It is a part of the java. util package and was added to Java as part of Java 8
 
+Optional is used to reduce the number of null checks
+
 ===========================================================================================================================
 GOF patterns – need to explain 2-3
 Diff b/w builder and factory and when would you use each?
