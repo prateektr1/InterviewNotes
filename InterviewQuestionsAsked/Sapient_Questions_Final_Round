@@ -1,5 +1,8 @@
 Hashmap problem, Sorting in hashmap
+============================================================================================================================
 Need to write a program which will sort on basis of its values (in Java 8 and plus)
+
+============================================================================================================================
 Class name shud be My code
 Panel will give input – list of integers and output should be – true if list contains only odd numbers and false otherwise
 What is relationship b/w hash code and equals
