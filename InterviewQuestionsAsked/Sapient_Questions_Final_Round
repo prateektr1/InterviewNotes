@@ -31,7 +31,14 @@ What is relationship b/w hash code and equals
 Equal objects should have equal hash code
 
 ====================================================================================================================
-How do we calculate the has function
+How do we calculate the hash function
+
+ we can write the logic ourselves also but With modular hashing, the hash function 
+is simply h(k) = k mod m for some m (usually, the number of buckets). The value k is an 
+integer hash code generated from the key.
+If m is a power of two (i.e., m=2p), then h(k) is just the p lowest-order bits of k
+
+==========================================================================================================================
 What is completable future.
 what is the difference between future and completable future how is it different. Can I use both at the same place.
 On the completable future if you created a chain and if we put .get, what will happen?
