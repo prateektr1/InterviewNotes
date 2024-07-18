@@ -2,6 +2,17 @@ Hashmap problem, Sorting in hashmap
 ============================================================================================================================
 Need to write a program which will sort on basis of its values (in Java 8 and plus)
 
+Ans: HashMap<String, Integer> temp
+                = hm.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue())
+                .collect(Collectors.toMap(
+                        Map.Entry::getKey,
+                        Map.Entry::getValue,
+                        (e1, e2) -> e1, LinkedHashMap::new));
+
+        return temp;
+
 ============================================================================================================================
 Class name shud be My code
 Panel will give input – list of integers and output should be – true if list contains only odd numbers and false otherwise
