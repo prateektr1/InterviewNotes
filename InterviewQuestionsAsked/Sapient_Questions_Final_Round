@@ -27,6 +27,10 @@ public static boolean checkIfOnlyOddNumbers(List<Integer> list)
     }
 ===========================================================================================================================
 What is relationship b/w hash code and equals
+
+Equal objects should have equal hash code
+
+====================================================================================================================
 How do we calculate the has function
 What is completable future.
 what is the difference between future and completable future how is it different. Can I use both at the same place.
