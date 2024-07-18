@@ -52,6 +52,11 @@ Iterators in Java provide facility to traverse/iterate over the Collection Objec
 In hash map There are multiple threads that are accessing it and then. While one thread is accessing something another thread is trying to update it what happens then.
 Sorting algorithms you are aware of, and which one Java uses?
 How does quick sort works ?
+
+HashMap is Not thread safe by default
+While one thread holds on to the lock, no other thread can use the collection. Also, performing concurrent operation 
+is not allowed on hashmap therefore if we try to update a hashmap while iterating over it, 
+we will receive ConcurrentModificationException
 ===========================================================================================================================
 Need of optional in java, why it used for ?
 Optional class has been introduced In java 8 to avoid null pointer exception
