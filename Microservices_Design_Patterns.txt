@@ -8,6 +8,10 @@ Saga Pattern
 
 Each Transaction in a particular transaction is treated as a local transaction so we have a series of local transactions
 Each local transaction updates data in a single service
+
+If a local transaction should fail, the service within a saga will perform compensating transactions that undo changes that were made in the previous service. Compensating transactions are transactions that can be potentially reversed by processing another transaction with the opposite effect
+
+
 Transactions could be in sequence or parallel
 2 types of pattern is mostly used in SAGA
 --- Event/Choreography based
