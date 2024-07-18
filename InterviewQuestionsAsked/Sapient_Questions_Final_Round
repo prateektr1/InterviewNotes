@@ -35,7 +35,11 @@ difference between a fail safe and fail fast iterator?
 In hash map There are multiple threads that are accessing it and then. While one thread is accessing something another thread is trying to update it what happens then.
 Sorting algorithms you are aware of, and which one Java uses?
 How does quick sort works ?
+===========================================================================================================================
 Need of optional in java, why it used for ?
+
+
+===========================================================================================================================
 GOF patterns – need to explain 2-3
 Diff b/w builder and factory and when would you use each?
 How do you maintain ordering of your messages in kafka
