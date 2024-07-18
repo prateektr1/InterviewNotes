@@ -18,6 +18,14 @@ Solution Using Java 8
 ============================================================================================================================
 Class name shud be My code
 Panel will give input – list of integers and output should be – true if list contains only odd numbers and false otherwise
+
+Ans :
+public static boolean checkIfOnlyOddNumbers(List<Integer> list)
+    {
+        System.out.println(list.stream().filter(a->a%2==0).count());
+        return list.stream().filter(a->a%2==0).count()==0?true:false;
+    }
+===========================================================================================================================
 What is relationship b/w hash code and equals
 How do we calculate the has function
 What is completable future.
