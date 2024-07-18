@@ -54,3 +54,8 @@ URL Hardcoding
 Load balancing not possible at runtime
 Issues when environment change or Multiple environment
 
+Service Discovery tools
+
+Eureka
+Consul
+Zoo Keeper
