@@ -37,7 +37,7 @@ Sorting algorithms you are aware of, and which one Java uses?
 How does quick sort works ?
 ===========================================================================================================================
 Need of optional in java, why it used for ?
-
+Optional class has been introduced In java 8 to avoid null pointer exception
 
 ===========================================================================================================================
 GOF patterns – need to explain 2-3
