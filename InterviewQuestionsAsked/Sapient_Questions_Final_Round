@@ -127,6 +127,21 @@ It can be implemented with the help of hysterix or resilience 4J
 
 =============================================================================================================
 Have you worked orchestrator, what is use case?
+
+Orchestrator is one the ways to implement saga microservices design pattern, here an orchestrator acts as a 
+central medium with which the microservices communicate
+
+The saga orchestration pattern uses a central coordinator (orchestrator) to help preserve data integrity in distributed 
+transactions that span multiple services .
+In a distributed transaction, multiple services can be called before a transaction is completed.
+
+When to use the saga design pattern. The saga pattern is well-suited for business workflows that must reset in their entirety if there is a failure in any one of the workflow's steps. 
+Order processing workflows and supply chain management systems are typical use cases
+
+Example : Uber eats or swiggy like applications
+=================================================================================================================
+
+
 difference between orchestrator and choreography (pros and cons of each)
 aware of domain driven design
 aware of OAuth – what is client credentials in Oauth2
