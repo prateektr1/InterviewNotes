@@ -1,5 +1,7 @@
 Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-boot , take example of a food delivery app
 
+The saga pattern is a failure management pattern that helps establish consistency in distributed applications, and coordinates transactions between multiple microservices to maintain data consistency
+
 What is Saga : It is a sequence of Local Transactions
 
 Saga Pattern
