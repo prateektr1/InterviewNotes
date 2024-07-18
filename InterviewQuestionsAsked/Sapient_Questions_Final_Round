@@ -57,6 +57,10 @@ HashMap is Not thread safe by default
 While one thread holds on to the lock, no other thread can use the collection. Also, performing concurrent operation 
 is not allowed on hashmap therefore if we try to update a hashmap while iterating over it, 
 we will receive ConcurrentModificationException
+
+The ConcurrentHashMap allows full concurrency for reads, meaning that any given number of threads can read the 
+same key simultaneously. 
+That also means that reads don't block and are not blocked by write operations.
 ===========================================================================================================================
 Need of optional in java, why it used for ?
 Optional class has been introduced In java 8 to avoid null pointer exception
