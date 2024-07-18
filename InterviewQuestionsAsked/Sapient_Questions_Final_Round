@@ -60,7 +60,11 @@ of segment locking will come in picture
 Sorting algorithms you are aware of, and which one Java uses?
 
 
-
+Timsort is used in Java
+Bubble Sort
+Merge Sort
+Insertion sort
+Quick Sort
 
 =============================================================================================================================
 How does quick sort works ?
