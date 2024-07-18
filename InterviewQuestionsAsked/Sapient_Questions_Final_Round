@@ -1,0 +1,29 @@
+Hashmap problem, Sorting in hashmap
+Need to write a program which will sort on basis of its values (in Java 8 and plus)
+Class name shud be My code
+Panel will give input – list of integers and output should be – true if list contains only odd numbers and false otherwise
+What is relationship b/w hash code and equals
+How do we calculate the has function
+What is completable future.
+what is the difference between future and completable future how is it different. Can I use both at the same place.
+On the completable future if you created a chain and if we put .get, what will happen?
+difference between a fail safe and fail fast iterator?
+In hash map There are multiple threads that are accessing it and then. While one thread is accessing something another thread is trying to update it what happens then.
+Sorting algorithms you are aware of, and which one Java uses?
+How does quick sort works ?
+Need of optional in java, why it used for ?
+GOF patterns – need to explain 2-3
+Diff b/w builder and factory and when would you use each?
+How do you maintain ordering of your messages in kafka
+SQL – query problem – snap – find average salary of each department
+Can you convert (the sql problem) to java JPA
+What type of dependency injection you are working in spring , and which one is preferred
+I have two components A and B that I'm initialising here let me know what will happen in this case.
+you can draw out you can write a there's a microservice A which depends on microservice B, This is calling Microservice B and then B is calling C. and microservice B is not working properly there are some issues that are happening So what happens in this case and how you can improve the this micro service arrangement. (So you have three microservices where let there's a dependency between them and one of them is not working well because of which your entire throughput and latency is getting affected now what are the things that you can implement in this particular microservice pattern that the microservices pattern that you can talk about that will improve this.) so in this particular A, B and C where and all will you have your circuit breaker code.
+What Circuit breaker you are aware of and how would you implement it ( code wise)
+Have you worked orchestrator, what is use case?
+difference between orchestrator and choreography (pros and cons of each)
+aware of domain driven design
+aware of OAuth – what is client credentials in Oauth2
+spring security and its class
+what is purpose if JWT (why you would send something like as a header payload and signature when you can just send the information in some other way what is the reason I'm using a jwt token.) Ans – (to maintain the integrity you have a signature so that later on if somebody tampers with it you know that OK something has happened to the payload or something like that that's why you have the signature)
