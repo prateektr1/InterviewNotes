@@ -2,6 +2,15 @@ Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-bo
 
 What is Saga : It is a sequence of Local Transactions
 
+Saga Pattern
+
+Each Transaction in a particular transaction is treated as a local transaction so we have a series of local transactions
+Each local transaction updates data in a single service
+Transactions could be in sequence or parallel
+2 types of pattern is mostly used in SAGA
+--- Event/Choreography based
+--- Orchestration Based Approach
+
 **************************************************************************************************************************
 
 Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
