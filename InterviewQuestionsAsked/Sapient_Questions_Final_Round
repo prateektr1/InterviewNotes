@@ -121,6 +121,11 @@ It can be done using hysterix or resilience 4j, hysterix is outdated so mostly r
 
 ==================================================================================================================================================================
 What Circuit breaker you are aware of and how would you implement it ( code wise)
+
+Ans : Circuit Breaker is a Microservices Design Pattern which is used to prevent cascading failures in microservices
+It can be implemented with the help of hysterix or resilience 4J
+
+=============================================================================================================
 Have you worked orchestrator, what is use case?
 difference between orchestrator and choreography (pros and cons of each)
 aware of domain driven design
