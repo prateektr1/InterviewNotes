@@ -13,6 +13,8 @@ Ans: HashMap<String, Integer> temp
 
         return temp;
 
+Solution Using Java 8
+
 ============================================================================================================================
 Class name shud be My code
 Panel will give input – list of integers and output should be – true if list contains only odd numbers and false otherwise
