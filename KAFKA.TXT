@@ -26,6 +26,11 @@ Work of filtering is done JMS API message selector in Rabbit MQ
 Kafka is Pull type messaging platform where it pulls messages from broker/
 Push Type messaging platform wherein providers push message to consumers
 
+In kafka message retention is policy based , kafka messages are forever saved untill the retention time expires/
+In rabbit mq message retention is acknowledgement based , these messages are removed from the queue once they are processed and acknowledged
+
+For massive high data kafka is used / For simple use cases when we rabbit/active mq
+
 In kafka it is the responsibility of consumers to consume the messages/
 In active mq or rabbit mq it is responsibility of producers to ensure delivery of messages
 
