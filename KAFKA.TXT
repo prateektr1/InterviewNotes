@@ -1,0 +1,1 @@
+NO Kafka server can run without a zookeeper server , it is mandatory to run the zookeeper server
