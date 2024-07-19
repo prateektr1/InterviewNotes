@@ -15,5 +15,10 @@ We use kafka for high performance monitoring and where losing messages is not im
 
 When you can manage to lose messages go for kafka when you cant manage to lose go for Rabbit MQ
 
+Kafka has a higher throughput as it does no wait for acknowledgement from the broker , so brokers can write messages at a very high rate/
+Active MQ or Rabbit mq have lower throughput as each delivery state is maintained
+
+kafka can assure that it can preserve the order in which messages were sent/ Active MQ or Rabbit MQ cant assure the order of messages to remain same
+
 
 
