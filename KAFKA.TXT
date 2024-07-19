@@ -1,3 +1,19 @@
 NO Kafka server can run without a zookeeper server , it is mandatory to run the zookeeper server
 
 Apache Kafka is a publish subscribed based fault tolerant messaging system , it is fast , scalable and distributed by design
+
+Differences between Active MQ/Rabbit MQ and Kafka
+
+kafka is based upon pub sub (publish subscribe model), Apache kafka allows publishing and subscribing
+to stream of records/ Active MQ is based upon PTP messaging ( Point to Point messaging system)
+
+Kafka is written in Java and scala / Active MQ is written in Java , Rabbit MQ is writeen in erlang
+
+Kafka mostly deals with large amount of data/ Rabbit mq deals with small amount of data
+
+We use kafka for high performance monitoring and where losing messages is not important / Use them for exactly once delivery and for valuing messages
+
+When you can manage to lose messages go for kafka when you cant manage to lose go for Rabbit MQ
+
+
+
