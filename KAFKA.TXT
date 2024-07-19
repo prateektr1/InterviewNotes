@@ -26,6 +26,10 @@ Work of filtering is done JMS API message selector in Rabbit MQ
 Kafka is Pull type messaging platform where it pulls messages from broker/
 Push Type messaging platform wherein providers push message to consumers
 
+How does Kafka maintains ordering of messages
+
+Kafka maintains order within a single partition by assigning a unique offset to each message . This guarantees sequential message appending within that partition. However, when we scale up and use multiple partitions, maintaining a global order becomes complex.
+
 In kafka message retention is policy based , kafka messages are forever saved untill the retention time expires/
 In rabbit mq message retention is acknowledgement based , these messages are removed from the queue once they are processed and acknowledged
 
