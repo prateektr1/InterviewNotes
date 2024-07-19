@@ -48,3 +48,8 @@ kafka supports only aysnc messages/ Rabbit MQ or Active MQ supports both types o
 
 
 
+
+=========================================================
+
+
+Kafka maintains order within a single partition by assigning a unique offset to each message . This guarantees sequential message appending within that partition. However, when we scale up and use multiple partitions, maintaining a global order becomes complex.
