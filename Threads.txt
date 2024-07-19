@@ -9,3 +9,7 @@ A Future represents a Future Result of an asynchronous operation
 The Future interface, part of the java. util. concurrent package represents the result of an asynchronous computation. A Future object returns from a computation when it is complete, but the computation itself runs in a separate thread, allowing the program to continue doing other work in the meantime
 
 COMPUTATION state of future can be Running , Success, Failed, Cancelled
+
+Difference between Future and Completable Future
+
+https://medium.com/@reetesh043/difference-between-completablefuture-and-future-in-java-4f7e00bcdb56
