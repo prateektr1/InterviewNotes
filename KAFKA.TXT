@@ -26,5 +26,16 @@ Work of filtering is done JMS API message selector in Rabbit MQ
 Kafka is Pull type messaging platform where it pulls messages from broker/
 Push Type messaging platform wherein providers push message to consumers
 
+In kafka it is the responsibility of consumers to consume the messages/
+In active mq or rabbit mq it is responsibility of producers to ensure delivery of messages
+
+kafka is scalable and available because of replication of partitons/
+In rabbit mq there is no chance of horizontal scalibility and replication
+
+In kafka performance remains good even if new consumers keep getting added, 1 million messages per second/
+In active MQ or Rabbit MQ performance slows down as number of consumers increase 4k-10k messages per second
+
+kafka supports only aysnc messages/ Rabbit MQ or Active MQ supports both types of messages
+
 
 
