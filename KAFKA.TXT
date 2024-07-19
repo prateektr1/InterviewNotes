@@ -1,1 +1,3 @@
 NO Kafka server can run without a zookeeper server , it is mandatory to run the zookeeper server
+
+Apache Kafka is a publish subscribed based fault tolerant messaging system , it is fast , scalable and distributed by design
