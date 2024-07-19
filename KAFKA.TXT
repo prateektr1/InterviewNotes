@@ -20,5 +20,11 @@ Active MQ or Rabbit mq have lower throughput as each delivery state is maintaine
 
 kafka can assure that it can preserve the order in which messages were sent/ Active MQ or Rabbit MQ cant assure the order of messages to remain same
 
+In Kafka there are no fundamental filters at broker level so it needs to be done by consumers or apps/
+Work of filtering is done JMS API message selector in Rabbit MQ
+
+Kafka is Pull type messaging platform where it pulls messages from broker/
+Push Type messaging platform wherein providers push message to consumers
+
 
 
