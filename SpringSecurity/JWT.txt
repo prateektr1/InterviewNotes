@@ -39,4 +39,6 @@ Once you're signed in, the site's server sends back a JWT that allows you access
 
 You send your JWT to the server with each request. When the server receives it, it generates a signature using using some data from your JWT, verifies it, and if your JWT is valid, it sends back a response.
 
+JSON Web Tokens (JWTs) are a standardized way to securely send data between two parties. They contain information (claims) encoded in the JSON format. These claims help share specific details between the parties involved. At its core, a JWT is a mechanism for verifying the authenticity of some JSON data.
+
 
