@@ -3,3 +3,11 @@ typically used for transmitting secure information between a client and a server
 within a system.
 
 JWTs are used for authentication and authorization scenarios.
+
+A JWT is a string which is separated by three dots(.), x.y.z
+
+x part is the header
+y part is the claim
+z part is the signature
+
+
