@@ -16,3 +16,33 @@ spring.security.user.name=cat
 spring.security.user.password=cat
 
 THis way we can define our own username and password and avoid the logs or spring to generate password
+
+Although the above method is depracated , the websecurity configadapter is depracated in spring 5.4
+
+Now the same task happens via creation of beans whose examples have been given below
+
+@Configuration
+public class SecurityConfiguration {
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .authorizeHttpRequests((authz) -> authz
+                .anyRequest().authenticated()
+            )
+            .httpBasic(withDefaults());
+        return http.build();
+    }
+
+}
+
+
+@Configuration
+public class SecurityConfiguration {
+
+    @Bean
+    public WebSecurityCustomizer webSecurityCustomizer() {
+        return (web) -> web.ignoring().antMatchers("/ignore1", "/ignore2");
+    }
+
+}
