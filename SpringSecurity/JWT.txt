@@ -31,4 +31,12 @@ that the token was not tampered with.
 JWTs are advantageous because they are compact, URL safe and can be  easily transmitted as url params
 in HTTP headers or within cookies.They are widely supported by programming languages and platforms
 
+==========================================================================================================
+
+When you sign in to a site with a username and password, or with a third party method like Google, you're proving who you are with those sensitive details or access. This process is called authentication.
+
+Once you're signed in, the site's server sends back a JWT that allows you access to things like your settings page, shopping cart, and so on. This process is called authorization.
+
+You send your JWT to the server with each request. When the server receives it, it generates a signature using using some data from your JWT, verifies it, and if your JWT is valid, it sends back a response.
+
 
