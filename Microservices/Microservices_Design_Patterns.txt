@@ -1,0 +1,80 @@
+Saga : read here https://www.baeldung.com/orkes-conductor-saga-pattern-spring-boot , take example of a food delivery app
+
+The saga pattern is a failure management pattern that helps establish consistency in distributed applications, and coordinates transactions between multiple microservices to maintain data consistency
+
+What is Saga : It is a sequence of Local Transactions
+
+Saga Pattern
+
+Each Transaction in a particular transaction is treated as a local transaction so we have a series of local transactions
+Each local transaction updates data in a single service
+
+If a local transaction should fail, the service within a saga will perform compensating transactions that undo changes that were made in the previous service. Compensating transactions are transactions that can be potentially reversed by processing another transaction with the opposite effect
+
+
+Transactions could be in sequence or parallel
+2 types of pattern is mostly used in SAGA
+--- Event/Choreography based
+--- Orchestration Based Approach
+
+Advantage of Saga Pattern is  it keeps track of the steps in a sequence and addresses issues that arise in a formal manner
+
+**************************************************************************************************************************
+
+Circuit Breaker : This Pattern helps in avoiding cascading failures in a microservices
+
+Circuit Breaker works in 3 ways mostly
+
+Open
+Half Open
+Closed
+
+Summary of circuit breaker design pattern
+Cloud Design Pattern for Microservices
+
+Not needed in case of a few services or scenarios where load is not heavy
+
+Can be configured as per the services or environment
+
+Easy yet effective way to build resilience in the system
+
+Should not be used to solve transient failures
+
+Fault tolerance can be done using resileince 4j and hysterix in Spring
+
+Annotations used in Hysterix are
+
+@EnableCircuitBreaker
+@HysterixCommand(fallbackmethod="handleCitizenDowntime")
+
+*************************************************************************************************************************
+API gateway pattern
+
+
+*************************************************************************************************************************
+Aggregator design pattern
+Command query responsibility segregation (CQRS)
+Asynchronous messaging
+Event sourcing
+Strangler
+Decomposition patterns
+***********************************************************************************************************************
+
+Service Discovery in Microservices
+
+You tube link : https://www.youtube.com/watch?v=1io_7tcmG20
+https://medium.com/cloud-native-daily/microservices-patterns-part-03-service-discovery-patterns-97d603b9a510
+
+Examples of service discovery design pattern is Yellow pages and telephone directory and service bots
+
+Problems faced without Service Discovery
+
+URL Hardcoding
+Load balancing not possible at runtime
+Issues when environment change or Multiple environment
+
+Service Discovery tools
+
+Eureka
+Consul
+Zoo Keeper
