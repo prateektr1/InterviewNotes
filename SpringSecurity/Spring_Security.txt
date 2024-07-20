@@ -72,3 +72,13 @@ These 2 specifications are completely different from one another
 
 
 ================================================================================================================
+
+
+                                                      Notes About OKTA
+
+Okta is a one stop solution for Authentication and Authorization of users
+It is actually a Company that develops such solutions
+
+
+
+
