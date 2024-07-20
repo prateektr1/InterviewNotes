@@ -18,4 +18,6 @@ and additional data. There are 3 types of claims registered, public and private 
 signature : signature is created using the header and payload only...to create signature take the encoded header, encoded
 payload, a secret and algorithm specified in the payload and sign that.
 
+signature is used to check the authenticity of the JWT token.
+
 
