@@ -20,4 +20,15 @@ payload, a secret and algorithm specified in the payload and sign that.
 
 signature is used to check the authenticity of the JWT token.
 
+A jwt token can be signed with
+
+secret key(HMAC algorithm)
+public/private key pair (RSA algorithm)
+
+the signature ensures the integrity of the token and allows the recieving party to verify
+that the token was not tampered with.
+
+JWTs are advantageous because they are compact, URL safe and can be  easily transmitted as url params
+in HTTP headers or within cookies.They are widely supported by programming languages and platforms
+
 
