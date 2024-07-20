@@ -66,6 +66,9 @@ on an HTTP service.
 It works by delegating user authentication to the service thats hosts a user account and authorizing third party
 applications to access that user account.
 
+There are 2 Versions of OAuth version 1 and Version 2 although there is no backward compatibility between them
+These 2 specifications are completely different from one another
+
 
 
 ================================================================================================================
