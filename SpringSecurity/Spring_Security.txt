@@ -79,6 +79,11 @@ These 2 specifications are completely different from one another
 Okta is a one stop solution for Authentication and Authorization of users
 It is actually a Company that develops such solutions
 
+Okta Just says that you don't need to configure anything locally you just need to configure your application using okta
+then a series of endpoints are provided by okta to do the process of authentication and authorization.
+
+Okta is an organisation that does authentication and authorization on our behalf
+
 
 
 
