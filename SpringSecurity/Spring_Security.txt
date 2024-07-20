@@ -53,4 +53,19 @@ https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigu
 
 https://stackoverflow.com/questions/72381114/spring-security-upgrading-the-deprecated-websecurityconfigureradapter-in-spring
 
+========================================================================================================================
+
+                                             Notes About Oauth2 
+
+Its on open standard or a Protocol for Authorization
+Outh2 is strictly meant for Authorization not meant for Authentication
+
+Ouath2 is an authorization framework that enables application such as facebook , Twitter to obtain limited access to accounts
+on an HTTP service.
+
+It works by delegating user authentication to the service thats hosts a user account and authorizing third party
+applications to access that user account.
+
+
+
 ================================================================================================================
