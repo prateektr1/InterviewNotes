@@ -5,3 +5,5 @@ The first step to add spring security in our application is to add the following
 <artifactId> spring-boot-starter-security </artifactId>
 
 WebSecurityConfigAdapter class is responsible for imparting security to Spring Boot application
+
+Basic Authentication in Spring Security is done using Authentication manager.
