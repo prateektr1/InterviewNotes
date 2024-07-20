@@ -1,0 +1,131 @@
+The `@Lazy` annotation in Java is part of the Spring Framework, and it is used to indicate that a bean should be lazily initialized. Lazy initialization means that the bean is not created or injected until it is first needed, rather than at application startup. This can help improve application startup time and resource usage, especially if the bean is not always needed.
+
+Here are some key points about the `@Lazy` annotation:
+
+### Usage
+
+1. **On Bean Definitions**: When used on a bean definition, it indicates that the bean should be lazily initialized.
+
+```java
+@Configuration
+public class AppConfig {
+
+    @Bean
+    @Lazy
+    public MyService myService() {
+        return new MyServiceImpl();
+    }
+}
+```
+
+In this example, `myService` bean will not be created until it is first requested.
+
+2. **On Injection Points**: When used on a field or a method parameter, it indicates that the injection of the bean should be lazy.
+
+```java
+@Service
+public class MyComponent {
+
+    @Autowired
+    @Lazy
+    private MyService myService;
+
+    public void performAction() {
+        // myService will be initialized the first time this method is called
+        myService.execute();
+    }
+}
+```
+
+In this example, the `myService` bean will be injected and initialized the first time `performAction` method is called.
+
+3. **On Configuration Classes**: When used on a configuration class, it indicates that all `@Bean` methods in that class should be lazily initialized.
+
+```java
+@Configuration
+@Lazy
+public class LazyConfig {
+
+    @Bean
+    public MyService myService() {
+        return new MyServiceImpl();
+    }
+}
+```
+
+In this example, all beans defined in `LazyConfig` will be lazily initialized.
+
+### Benefits of Using `@Lazy`
+
+- **Improved Startup Time**: Since beans are created only when needed, application startup time can be reduced.
+- **Resource Optimization**: Resources are used only when necessary, which can be beneficial in large applications or when dealing with resource-intensive beans.
+- **Circular Dependency Avoidance**: In some cases, lazy initialization can help avoid circular dependency issues.
+
+### Example
+
+Here’s a more detailed example to illustrate how `@Lazy` works:
+
+```java
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Configuration
+public class AppConfig {
+
+    @Bean
+    @Lazy
+    public MyService myService() {
+        System.out.println("Creating MyService bean");
+        return new MyServiceImpl();
+    }
+}
+
+@Service
+class MyServiceImpl implements MyService {
+    // Service implementation
+}
+
+interface MyService {
+    void execute();
+}
+
+@Component
+class MyComponent {
+
+    @Autowired
+    @Lazy
+    private MyService myService;
+
+    public void performAction() {
+        System.out.println("MyComponent: performAction called");
+        myService.execute();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        MyComponent myComponent = context.getBean(MyComponent.class);
+        System.out.println("MyComponent bean retrieved from context");
+        myComponent.performAction();
+    }
+}
+```
+
+### Output
+
+```plaintext
+MyComponent bean retrieved from context
+MyComponent: performAction called
+Creating MyService bean
+```
+
+In this example:
+- The `MyService` bean is lazily initialized and is created only when `performAction` is called.
+- You can see from the output that "Creating MyService bean" is printed only when the method `performAction` is executed, demonstrating the lazy initialization.
+
+Using `@Lazy` can be a powerful tool in optimizing your Spring applications, particularly for improving startup performance and managing resource usage more effectively.
