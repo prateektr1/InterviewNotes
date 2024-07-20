@@ -7,3 +7,10 @@ The first step to add spring security in our application is to add the following
 WebSecurityConfigAdapter class is responsible for imparting security to Spring Boot application
 
 Basic Authentication in Spring Security is done using Authentication manager.
+
+We can use this method although this is not a very good way , we can define these 2 props in properties file 
+
+spring.security.user.name=cat
+spring.security.user.password=cat
+
+THis way we can define our own username and password and avoid the logs or spring to generate password
