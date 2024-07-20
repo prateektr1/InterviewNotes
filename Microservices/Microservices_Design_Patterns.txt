@@ -6,6 +6,8 @@ What is Saga : It is a sequence of Local Transactions
 
 Saga Pattern
 
+you tube link : https://www.youtube.com/watch?v=41N_yHARIw0
+
 Each Transaction in a particular transaction is treated as a local transaction so we have a series of local transactions
 Each local transaction updates data in a single service
 
