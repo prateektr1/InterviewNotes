@@ -88,6 +88,12 @@ Okta internally used oauth 2 only.
 
 Ouath 2 uses access tokens only
 
+How Oauth works
+
+In the system there are
+ ----- Scopes and tokens
+ ----- Grants and Flows
+
 
 
 
