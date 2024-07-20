@@ -1,0 +1,110 @@
+In Spring, a circular dependency occurs when two or more beans depend on each other, either directly or indirectly, creating a loop in the dependency graph. This situation can prevent a Spring Boot application from starting because Spring cannot resolve the order in which the beans should be created, leading to a failure in the application context initialization.
+
+### Example of Circular Dependency
+
+Consider the following example:
+
+```java
+@Component
+public class BeanA {
+    @Autowired
+    private BeanB beanB;
+
+    public BeanA() {
+        System.out.println("BeanA created");
+    }
+}
+
+@Component
+public class BeanB {
+    @Autowired
+    private BeanA beanA;
+
+    public BeanB() {
+        System.out.println("BeanB created");
+    }
+}
+```
+
+In this scenario:
+- `BeanA` depends on `BeanB`.
+- `BeanB` depends on `BeanA`.
+
+### Why Circular Dependencies Cause Issues
+
+When Spring tries to create `BeanA`, it sees that it needs `BeanB`. It then tries to create `BeanB`, which in turn needs `BeanA`. This creates an infinite loop that Spring cannot resolve, causing the application context initialization to fail. Spring cannot construct the dependency graph properly due to this cyclic dependency, and as a result, throws a `BeanCurrentlyInCreationException` or similar exceptions.
+
+### How to Solve Circular Dependencies
+
+1. **Redesign the Dependencies**:
+   - Refactor the code to avoid circular dependencies by breaking the cycle. This often involves rethinking the relationships between your beans and considering if they are designed in a way that reflects the business logic correctly.
+
+2. **Use `@Lazy` Annotation**:
+   - Lazily injecting one of the dependencies can break the circular reference by deferring the instantiation of one bean until it is actually needed.
+
+Example:
+
+```java
+@Component
+public class BeanA {
+    @Autowired
+    @Lazy
+    private BeanB beanB;
+
+    public BeanA() {
+        System.out.println("BeanA created");
+    }
+}
+
+@Component
+public class BeanB {
+    @Autowired
+    private BeanA beanA;
+
+    public BeanB() {
+        System.out.println("BeanB created");
+    }
+}
+```
+
+In this example, `BeanB` will be lazily initialized, breaking the circular dependency loop.
+
+3. **Use Setter Injection**:
+   - Instead of using constructor or field injection, use setter injection for one of the beans.
+
+Example:
+
+```java
+@Component
+public class BeanA {
+    private BeanB beanB;
+
+    @Autowired
+    public void setBeanB(BeanB beanB) {
+        this.beanB = beanB;
+    }
+
+    public BeanA() {
+        System.out.println("BeanA created");
+    }
+}
+
+@Component
+public class BeanB {
+    @Autowired
+    private BeanA beanA;
+
+    public BeanB() {
+        System.out.println("BeanB created");
+    }
+}
+```
+
+Here, `BeanA` is injected into `BeanB` through the setter method, which helps to avoid the circular dependency at the time of bean creation.
+
+4. **Application Context Configuration**:
+   - Sometimes, redefining how beans are created and initialized in the application context can help resolve circular dependencies.
+
+### Conclusion
+
+Circular dependencies in Spring Boot can prevent the application from starting due to the infinite loop they create in the dependency graph. By refactoring your code, using the `@Lazy` annotation, opting for setter injection, or adjusting the application context configuration, you can resolve these issues and ensure that your application starts correctly. Understanding and managing dependencies effectively is crucial in designing robust and maintainable Spring applications.
