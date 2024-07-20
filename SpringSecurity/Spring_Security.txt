@@ -3,3 +3,5 @@ Spring Security Secures our application using authorization and authentication
 The first step to add spring security in our application is to add the following dependency
 
 <artifactId> spring-boot-starter-security </artifactId>
+
+WebSecurityConfigAdapter class is responsible for imparting security to Spring Boot application
