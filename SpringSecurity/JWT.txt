@@ -10,4 +10,9 @@ x part is the header
 y part is the claim
 z part is the signature
 
+Header : Header contains of 2 parts a) token type b) the signing algo like HMAC, sha256 or RSA
 
+Payload : The second part of the token contains the claims , claims are statements about an entity(typically the user)
+and additional data. There are 3 types of claims registered, public and private claims.
+
+signature : 
