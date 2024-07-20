@@ -15,4 +15,7 @@ Header : Header contains of 2 parts a) token type b) the signing algo like HMAC,
 Payload : The second part of the token contains the claims , claims are statements about an entity(typically the user)
 and additional data. There are 3 types of claims registered, public and private claims.
 
-signature : 
+signature : signature is created using the header and payload only...to create signature take the encoded header, encoded
+payload, a secret and algorithm specified in the payload and sign that.
+
+
