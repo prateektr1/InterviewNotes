@@ -84,6 +84,10 @@ then a series of endpoints are provided by okta to do the process of authenticat
 
 Okta is an organisation that does authentication and authorization on our behalf
 
+Okta internally used oauth 2 only.
+
+Ouath 2 uses access tokens only
+
 
 
 
