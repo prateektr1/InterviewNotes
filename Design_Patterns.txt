@@ -70,6 +70,7 @@ Adapter Design Pattern : https://www.geeksforgeeks.org/adapter-pattern/
 
 Difference between Factory Pattern and Builder Pattern
 
- The Factory provides a way to address the creation of different related objects. In contrast, the Builder helps to create an object with a complex internal structure. 
+The Factory provides a way to address the creation of different related objects. 
+In contrast, the Builder helps to create an object with a complex internal structure. 
 
 
