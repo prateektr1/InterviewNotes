@@ -11,4 +11,13 @@ Loose Coupling more robust code
 
 =================================================================================================================================================
 
-Builder is a design pattern for creational software that allows the separation of the construction of a complex object from its representation, so that the same construction process can create different representations.
+Builder is a design pattern for creational software that allows the separation of the construction of a complex object from its representation, 
+so that the same construction process can create different representations.
+
+=========================================================================================================================================================
+
+Prototype design pattern
+
+https://refactoring.guru/design-patterns/prototype
+
+===================================================================================================================================================================
