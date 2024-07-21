@@ -26,5 +26,8 @@ Observer Design Pattern
 
 https://www.youtube.com/watch?v=tCFq-Y-U0UQ&list=PL0zysOflRCek8kmc_jYl_6C7tpud7U2V_&index=10
 
+Best Example of Observer Design Pattern is a You tube channel, whenver a new video gets uploaded
+all the subscriber get a notification.
+
 
 =================================================================================================================
