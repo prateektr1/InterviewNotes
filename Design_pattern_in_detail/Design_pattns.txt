@@ -36,3 +36,7 @@ https://refactoring.guru/design-patterns/observer
 
 
 =================================================================================================================
+
+Adapter Design Pattern
+
+https://refactoring.guru/design-patterns/adapter
