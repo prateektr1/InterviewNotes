@@ -6,3 +6,5 @@ GraphQL gives API maintainers the flexibility to add or discard fields without a
 
 
 Rather creating a separate end point everytime for getting different fields we can use graph QL, postman too has an option of Graph QL
+
+Unlike REST, which typically uses multiple endpoints to fetch data and perform network operations, GraphQL exposes data models by using a single endpoint through which clients send GraphQL requests , regardless of what they're asking for.
