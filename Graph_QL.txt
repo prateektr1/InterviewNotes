@@ -1,1 +1,8 @@
+https://www.youtube.com/watch?v=K_MGBQ_1Nic&t=401s
 
+As an alternative to REST, GraphQL allows developers to make requests to fetch data from multiple data sources with a single API call . 
+GraphQL is designed to make APIs fast, flexible, and developer-friendly. 
+GraphQL gives API maintainers the flexibility to add or discard fields without affecting existing queries.
+
+
+Rather creating a separate end point everytime for getting different fields we can use graph QL, postman too has an option of Graph QL
