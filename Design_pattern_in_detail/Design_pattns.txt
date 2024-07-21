@@ -21,3 +21,10 @@ Prototype design pattern
 https://refactoring.guru/design-patterns/prototype
 
 ===================================================================================================================================================================
+
+Observer Design Pattern
+
+https://www.youtube.com/watch?v=tCFq-Y-U0UQ&list=PL0zysOflRCek8kmc_jYl_6C7tpud7U2V_&index=10
+
+
+=================================================================================================================
