@@ -1,0 +1,3 @@
+API gateway dont have the capacity to do load balancing that task is done separately by load balancers
+
+Dont get confused in that
