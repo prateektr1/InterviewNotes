@@ -5,3 +5,7 @@ Dont get confused in that
 What is the Proxy Design Pattern
 
 https://refactoring.guru/design-patterns/proxy
+
+What is the difference between Spring singleton and Normal Singleton?
+
+https://stackoverflow.com/questions/15252284/what-is-the-difference-between-a-spring-singleton-and-a-java-singeletondesign-p
